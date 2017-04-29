@@ -16,7 +16,7 @@ RUN mkdir -p /var/run/dbus /homebridge
 
 #COPY config.json /homebridge/config.json
 
-COPY homebridge.sh /homebridge/homebridge.sh
+COPY homebridge.sh /homebridge/homebridge.sh && chmod +x /homebridge/homebridge.sh
 
 VOLUME ["/homebridge"]
 
