@@ -1,4 +1,4 @@
-FROM emdzej/node
+FROM node:alpine
 
 MAINTAINER Michał Jaskólski <michal@jaskolski.online>
 
